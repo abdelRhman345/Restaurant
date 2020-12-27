@@ -1,0 +1,371 @@
+body {
+  background-color: #f2f2f2;
+  font-family: 'Raleway'; }
+
+.add {
+  display: block;
+  background-color: #ff6600;
+  text-align: center;
+  margin-right: 12px;
+  font-weight: bold;
+  font-size: 23px !important;
+  cursor: pointer;
+  color: #fff !important; }
+
+.navbar {
+  background-color: #ff6600 !important;
+  -webkit-box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.14);
+          box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.14); }
+  .navbar .navbar-brand {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1px; }
+    .navbar .navbar-brand:hover {
+      color: #fff; }
+    @media (max-width: 575.98px) {
+      .navbar .navbar-brand {
+        font-size: 14px; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .navbar .navbar-brand {
+        font-size: 14px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .navbar .navbar-brand {
+        font-size: 15px; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .navbar .navbar-brand {
+        font-size: 15px; } }
+  .navbar .navbar-collapse .nav-link {
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    @media (max-width: 575.98px) {
+      .navbar .navbar-collapse .nav-link {
+        font-size: 12px; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .navbar .navbar-collapse .nav-link {
+        font-size: 12px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .navbar .navbar-collapse .nav-link {
+        font-size: 12px; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .navbar .navbar-collapse .nav-link {
+        font-size: 12px; } }
+  .navbar .navbar-collapse .nav-link.active {
+    color: #b6440e; }
+  .navbar .navbar-collapse form .form-control {
+    font-size: 14px; }
+    @media (max-width: 575.98px) {
+      .navbar .navbar-collapse form .form-control {
+        font-size: 12px; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .navbar .navbar-collapse form .form-control {
+        font-size: 12px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .navbar .navbar-collapse form .form-control {
+        font-size: 12px; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .navbar .navbar-collapse form .form-control {
+        font-size: 13px; } }
+    .navbar .navbar-collapse form .form-control:focus {
+      border-color: #b6440e;
+      -webkit-box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, 0.25);
+              box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, 0.25); }
+  .navbar .navbar-collapse form .btn {
+    color: #fff;
+    border: 1px solid #b6440e; }
+    @media (max-width: 575.98px) {
+      .navbar .navbar-collapse form .btn {
+        font-size: 12px; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .navbar .navbar-collapse form .btn {
+        font-size: 12px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .navbar .navbar-collapse form .btn {
+        font-size: 12px; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .navbar .navbar-collapse form .btn {
+        font-size: 13px; } }
+    .navbar .navbar-collapse form .btn:hover {
+      background-color: #b6440e;
+      color: #fff; }
+    .navbar .navbar-collapse form .btn:focus {
+      -webkit-box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, 0.5);
+              box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, 0.5); }
+  .navbar .navbar-collapse .log-in, .navbar .navbar-collapse .sing-up {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 95px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0px 5px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    border: 1px solid #b6440e;
+    border-radius: 4px;
+    cursor: pointer; }
+    @media (max-width: 575.98px) {
+      .navbar .navbar-collapse .log-in, .navbar .navbar-collapse .sing-up {
+        margin-top: 10px;
+        font-size: 12px; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .navbar .navbar-collapse .log-in, .navbar .navbar-collapse .sing-up {
+        margin-top: 10px;
+        font-size: 12px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .navbar .navbar-collapse .log-in, .navbar .navbar-collapse .sing-up {
+        margin-top: 10px;
+        font-size: 12px; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .navbar .navbar-collapse .log-in, .navbar .navbar-collapse .sing-up {
+        font-size: 12px; } }
+    .navbar .navbar-collapse .log-in .log-link, .navbar .navbar-collapse .log-in .sing-link, .navbar .navbar-collapse .sing-up .log-link, .navbar .navbar-collapse .sing-up .sing-link {
+      color: #fff;
+      text-decoration: none; }
+  .navbar .navbar-collapse .log-in {
+    background-color: #b6440e; }
+    .navbar .navbar-collapse .log-in:hover {
+      background-color: transparent; }
+  .navbar .navbar-collapse .sing-up:hover {
+    background-color: #b6440e; }
+
+.restaurant {
+  padding-top: 50px; }
+  .restaurant .restaurant-info {
+    background-color: #fff;
+    -webkit-box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.24);
+            box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    overflow: hidden;
+    -webkit-transition: .2s;
+    transition: .2s;
+    cursor: pointer; }
+    @media (max-width: 575.98px) {
+      .restaurant .restaurant-info {
+        margin-bottom: 15px; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .restaurant .restaurant-info {
+        margin-bottom: 20px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .restaurant .restaurant-info {
+        margin-bottom: 20px; } }
+    .restaurant .restaurant-info:hover {
+      -webkit-box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.04);
+              box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.04);
+      border: 1px solid rgba(0, 0, 0, 0.24); }
+    .restaurant .restaurant-info .img {
+      padding: 5px;
+      padding-bottom: 0;
+      width: 100%;
+      overflow: hidden; }
+      .restaurant .restaurant-info .img img {
+        border-radius: 3px; }
+    .restaurant .restaurant-info p {
+      margin: 0;
+      padding: 10px;
+      font-weight: bold; }
+      @media (max-width: 575.98px) {
+        .restaurant .restaurant-info p {
+          font-size: 13px; } }
+      @media (min-width: 576px) and (max-width: 767.98px) {
+        .restaurant .restaurant-info p {
+          font-size: 14px; } }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .restaurant .restaurant-info p {
+          font-size: 14px; } }
+  .restaurant .eat-add {
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 10.2px rgba(0, 0, 0, 0.14);
+            box-shadow: 0px 0px 10.2px rgba(0, 0, 0, 0.14);
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.24); }
+    .restaurant .eat-add .text {
+      height: 100%; }
+      .restaurant .eat-add .text p {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 700;
+        padding-bottom: 5px;
+        height: 56px;
+        line-height: 50px; }
+        @media (max-width: 575.98px) {
+          .restaurant .eat-add .text p {
+            height: 30px;
+            line-height: 35px;
+            font-size: 12px; } }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .restaurant .eat-add .text p {
+            height: 45px;
+            line-height: 40px;
+            font-size: 13px; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .restaurant .eat-add .text p {
+            height: 40px;
+            line-height: 40px;
+            font-size: 13px; } }
+      .restaurant .eat-add .text span {
+        display: block;
+        font-size: 13px;
+        font-weight: 700;
+        color: #fff;
+        background-color: #b6440e;
+        border-left: 3px solid #ff6600;
+        height: 28px;
+        line-height: 28px;
+        text-align: center; }
+        @media (max-width: 575.98px) {
+          .restaurant .eat-add .text span {
+            margin-top: 5px; } }
+  .restaurant .content .type-one, .restaurant .content .type-two, .restaurant .content .type-there, .restaurant .content .type-four {
+    margin: 30px;
+    padding: 20px; }
+    .restaurant .content .type-one h2, .restaurant .content .type-two h2, .restaurant .content .type-there h2, .restaurant .content .type-four h2 {
+      padding: 10px;
+      text-transform: uppercase;
+      font-size: 21px;
+      font-weight: 600;
+      color: #fff;
+      background-color: #ff6600;
+      width: 25%;
+      text-align: center;
+      border-left: 10px solid #b6440e;
+      margin-bottom: 30px; }
+      @media (max-width: 575.98px) {
+        .restaurant .content .type-one h2, .restaurant .content .type-two h2, .restaurant .content .type-there h2, .restaurant .content .type-four h2 {
+          font-size: 16px;
+          width: 70%; } }
+      @media (min-width: 576px) and (max-width: 767.98px) {
+        .restaurant .content .type-one h2, .restaurant .content .type-two h2, .restaurant .content .type-there h2, .restaurant .content .type-four h2 {
+          font-size: 17px;
+          width: 50%; } }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .restaurant .content .type-one h2, .restaurant .content .type-two h2, .restaurant .content .type-there h2, .restaurant .content .type-four h2 {
+          font-size: 19px;
+          width: 40%; } }
+      @media (min-width: 992px) and (max-width: 1199.98px) {
+        .restaurant .content .type-one h2, .restaurant .content .type-two h2, .restaurant .content .type-there h2, .restaurant .content .type-four h2 {
+          font-size: 19px;
+          width: 30%; } }
+  .restaurant .content .type-two {
+    display: none; }
+  .restaurant .content .type-there {
+    display: none; }
+  .restaurant .content .type-four {
+    display: none; }
+
+.form {
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.24);
+  border: 1px solid #ddd; }
+  @media (max-width: 575.98px) {
+    .form {
+      margin: 50px auto;
+      width: 100% !important; } }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .form {
+      margin: 50px auto;
+      width: 80% !important; } }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .form {
+      margin: 70px auto;
+      width: 70% !important; } }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .form {
+      margin: 70px auto;
+      width: 60% !important; } }
+  .form h2 {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff6600;
+    width: 45%;
+    text-align: center;
+    border-left: 10px solid #b6440e;
+    margin-bottom: 30px; }
+    @media (max-width: 575.98px) {
+      .form h2 {
+        font-size: 15px; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .form h2 {
+        font-size: 15px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .form h2 {
+        font-size: 17px; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .form h2 {
+        font-size: 19px; } }
+  .form .form-control {
+    font-size: 14px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #ff6600; }
+    @media (max-width: 575.98px) {
+      .form .form-control {
+        font-size: 12px; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .form .form-control {
+        font-size: 12px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .form .form-control {
+        font-size: 13px; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .form .form-control {
+        font-size: 13px; } }
+    .form .form-control:focus {
+      border-color: #b6440e;
+      -webkit-box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, 0.25);
+              box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, 0.25); }
+  .form .btn {
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    margin: 20px 0 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    border: 1px solid #ff6600;
+    border-radius: 4px;
+    background-color: #ff6600; }
+    @media (max-width: 575.98px) {
+      .form .btn {
+        font-size: 12px; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .form .btn {
+        font-size: 12px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .form .btn {
+        font-size: 13px; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .form .btn {
+        font-size: 13px; } }
+    .form .btn:hover {
+      background-color: #b6440e;
+      border: 1px solid #b6440e; }
+    .form .btn:focus {
+      -webkit-box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, 0.5);
+              box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, 0.5); }
+
+/*# sourceMappingURL=style.css.map */

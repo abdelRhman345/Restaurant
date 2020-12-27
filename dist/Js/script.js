@@ -1,0 +1,1 @@
+$(function(){"use strict";$(".restaurant-info").on("click",function(){$(".container .content > div").fadeOut(0),$("."+$(this).data("class")).fadeIn()})});

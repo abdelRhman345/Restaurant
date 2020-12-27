@@ -1,0 +1,260 @@
+// Flowers Market
+.restaurant {
+    padding-top: 50px;
+    .restaurant-info {
+        background-color: #fff;
+        box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.24);
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.14);
+        overflow: hidden;
+        transition: .2s;
+        cursor: pointer;
+        @media #{$mediaExSmall} {
+            margin-bottom: 15px;
+        }
+        @media #{$mediaSmall} {
+            margin-bottom: 20px;
+        }
+        @media #{$mediaMedium} {
+            margin-bottom: 20px;
+        }
+        @media #{$mediaLarge} {
+            
+        }
+        &:hover {
+            box-shadow:
+                2.8px 2.8px 2.2px rgba(0, 0, 0, 0.04);
+            border: 1px solid rgba(0, 0, 0, 0.24);
+        }
+        .img {
+            padding: 5px;
+            padding-bottom: 0;
+            width: 100%;
+            overflow: hidden;
+            img {
+                border-radius: 3px;
+            }
+        }
+        p {
+            margin: 0;
+            padding: 10px;
+            font-weight: bold;
+            @media #{$mediaExSmall} {
+                font-size: 13px;
+            }
+            @media #{$mediaSmall} {
+                font-size: 14px;
+            }
+            @media #{$mediaMedium} {
+                font-size: 14px;
+            }
+            @media #{$mediaLarge} {
+                
+            }
+        }
+        
+    }
+    .eat-add {
+        background-color: #fff;
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow:
+            0px 0px 10.2px rgba(0, 0, 0, 0.14);
+        margin-bottom: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.24);
+        // padding: 3px;
+        .text {
+            height: 100%;
+            p {
+                margin: 0;
+                font-size: 14px;
+                font-weight: 700;
+                padding-bottom: 5px;
+                height: 56px;
+                line-height: 50px;
+                @media #{$mediaExSmall} {
+                    height: 30px;
+                    line-height: 35px;
+                    font-size: 12px;
+                }
+                @media #{$mediaSmall} {
+                }
+                @media #{$mediaMedium} {
+                    height: 45px;
+                    line-height: 40px;
+                    font-size: 13px;
+                }
+                @media #{$mediaLarge} {
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 13px;
+                }
+            }
+            span {
+                display: block;
+                font-size: 13px;
+                font-weight: 700;
+                color: #fff;
+                background-color: $primaryColor;
+                border-left: 3px solid $mainColor;
+                height: 28px;
+                line-height: 28px;
+                text-align: center;
+                @media #{$mediaExSmall} {
+                    margin-top: 5px
+                }
+            }
+        }
+    }
+    .content {
+        .type-one, .type-two, .type-there, .type-four {
+            margin: 30px;
+            padding: 20px;
+            h2 {
+                padding: 10px;
+                text-transform: uppercase;
+                font-size: 21px;
+                font-weight: 600;
+                color: #fff;
+                background-color: $mainColor;
+                width: 25%;
+                text-align: center;
+                border-left: 10px solid $primaryColor;
+                margin-bottom: 30px;
+                @media #{$mediaExSmall} {
+                    font-size: 16px;
+                    width: 70%;
+                }
+                @media #{$mediaSmall} {
+                    font-size: 17px;
+                    width: 50%;
+                }
+                @media #{$mediaMedium} {
+                    font-size: 19px;
+                    width: 40%;
+                }
+                @media #{$mediaLarge} {
+                    font-size: 19px;
+                    width: 30%;
+                }
+            }
+        }
+        .type-two {
+            display: none;
+        }
+        .type-there {
+            display: none;
+        }
+        .type-four {
+            display: none;
+        }
+    }
+}
+
+// Form
+.form {
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.24);
+    border: 1px solid #ddd;
+    @media #{$mediaExSmall} {
+        margin: 50px auto;
+        width: 100% !important;
+    }
+    @media #{$mediaSmall} {
+        margin: 50px auto;
+        width: 80% !important;
+    }
+    @media #{$mediaMedium} {
+        margin: 70px auto;
+        width: 70% !important;
+    }
+    @media #{$mediaLarge} {
+        margin: 70px auto;
+        width: 60% !important;
+    }
+    h2 {
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 600;
+        color: #fff;
+        background-color: $mainColor;
+        width: 45%;
+        text-align: center;
+        border-left: 10px solid $primaryColor;
+        margin-bottom: 30px;
+        @media #{$mediaExSmall} {
+            font-size: 15px;
+        }
+        @media #{$mediaSmall} {
+            font-size: 15px;
+        }
+        @media #{$mediaMedium} {
+            font-size: 17px;
+        }
+        @media #{$mediaLarge} {
+            font-size: 19px;
+        }
+    }
+    .form-control {
+        font-size: 14px;
+        margin-bottom: 20px;
+        background-color: transparent;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid $mainColor;
+        @media #{$mediaExSmall} {
+            font-size: 12px;
+        }
+        @media #{$mediaSmall} {
+            font-size: 12px;
+        }
+        @media #{$mediaMedium} {
+            font-size: 13px;
+        }
+        @media #{$mediaLarge} {
+            font-size: 13px;
+        }
+        &:focus {
+            border-color: $primaryColor;
+            box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, .25);
+        }
+    }
+    .btn {
+        color: #fff;
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        width: 100%;
+        height: 35px;
+        text-align: center;
+        margin: 20px 0 0;
+        transition: .3s;
+        border: 1px solid $mainColor;
+        border-radius: 4px;
+        background-color: $mainColor;
+        @media #{$mediaExSmall} {
+            font-size: 12px;
+        }
+        @media #{$mediaSmall} {
+            font-size: 12px;
+        }
+        @media #{$mediaMedium} {
+            font-size: 13px;
+        }
+        @media #{$mediaLarge} {
+            font-size: 13px;
+        }
+        &:hover {
+            background-color: $primaryColor;
+            border: 1px solid $primaryColor;
+        }
+        &:focus {
+            box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, .5);
+        }
+    }
+}

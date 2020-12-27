@@ -1,0 +1,141 @@
+.navbar {
+    background-color: $mainColor !important;
+    box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.14);
+    .navbar-brand {
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 17px;
+        letter-spacing: 1px;
+        &:hover {
+            color: #fff;
+        }
+        @media #{$mediaExSmall} {
+            font-size: 14px;
+        }
+        @media #{$mediaSmall} {
+        font-size: 14px;
+        }
+        @media #{$mediaMedium} {
+        font-size: 15px;
+        }
+        @media #{$mediaLarge} {
+        font-size: 15px;
+        }
+    }
+    .navbar-collapse {
+        .nav-link {
+            color: #fff;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            @media #{$mediaExSmall} {
+                font-size: 12px;
+            }
+            @media #{$mediaSmall} {
+                font-size: 12px;
+            }
+            @media #{$mediaMedium} {
+                font-size: 12px;
+            }
+            @media #{$mediaLarge} {
+                font-size: 12px;
+            }
+        }
+        .nav-link.active {
+            color: $primaryColor;
+        }
+        form {
+            .form-control {
+                font-size: 14px;
+                @media #{$mediaExSmall} {
+                    font-size: 12px;
+                }
+                @media #{$mediaSmall} {
+                    font-size: 12px;
+                }
+                @media #{$mediaMedium} {
+                    font-size: 12px;
+                }
+                @media #{$mediaLarge} {
+                    font-size: 13px;
+                }
+                &:focus {
+                    border-color: $primaryColor;
+                    box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, .25);
+                }
+            }
+            .btn {
+                color: #fff;
+                border: 1px solid $primaryColor;
+                @media #{$mediaExSmall} {
+                    font-size: 12px;
+                }
+                @media #{$mediaSmall} {
+                    font-size: 12px;
+                }
+                @media #{$mediaMedium} {
+                    font-size: 12px;
+                }
+                @media #{$mediaLarge} {
+                    font-size: 13px;
+                }
+                &:hover {
+                    background-color: $primaryColor;
+                    color: #fff;
+                }
+                &:focus {
+                    box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, .5);
+                }
+            }
+        }
+        .log-in, .sing-up {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 400;
+            font-size: 13px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            width: 95px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            margin: 0px 5px;
+            transition: .3s;
+            border: 1px solid $primaryColor;
+            border-radius: 4px;
+            cursor: pointer;
+            @media #{$mediaExSmall} {
+                margin-top: 10px;
+                font-size: 12px;
+            }
+            @media #{$mediaSmall} {
+                margin-top: 10px;
+                font-size: 12px;
+            }
+            @media #{$mediaMedium} {
+                margin-top: 10px;
+                font-size: 12px;
+            }
+            @media #{$mediaLarge} {
+                font-size: 12px;
+            }
+            .log-link, .sing-link {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        .log-in {
+            background-color: $primaryColor;
+            &:hover {
+                background-color: transparent;
+            }
+        }
+        .sing-up {
+            &:hover {
+                background-color: $primaryColor;
+            }
+        }
+    }
+}
